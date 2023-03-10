@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Device xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Model>dev1</Model>
+  <Manufacturer>manufacturer1</Manufacturer>
+  <Price>1</Price>
+</Device>
