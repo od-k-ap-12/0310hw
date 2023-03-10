@@ -15,13 +15,14 @@ namespace _0310hw
     {
         static void Main(string[] args)
         {
-            string path = "../../data.json";
+            string pathjson = "../../data.json";
+            string pathxml = "../../data.json";
             Device dev = new Device("dev1","manufacturer1", 1);
             DeviceSerializer ds = new DeviceSerializer();
-            ds.XMLSerialize(dev,path);
-            ds.XMLDeserialize(dev, path);
-            ds.JSONSerialize(dev, path);
-            ds.JSONDeserialize(dev, path);
+            ds.XMLSerialize(dev,pathxml);
+            ds.XMLDeserialize(dev, pathxml);
+            ds.JSONSerialize(dev, pathjson);
+            ds.JSONDeserialize(dev, pathjson);
 
         }
     }
