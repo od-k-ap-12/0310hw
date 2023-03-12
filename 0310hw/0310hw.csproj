@@ -46,7 +46,6 @@
   <ItemGroup>
     <Compile Include="Device.cs" />
     <Compile Include="DeviceSerializer.cs" />
-    <Compile Include="ISerialize.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

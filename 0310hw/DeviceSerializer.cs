@@ -10,7 +10,7 @@ using System.Runtime.Serialization.Json;
 
 namespace _0310hw
 {
-    public class DeviceSerializer:ISerialize
+    public class DeviceSerializer
     {
         public void XMLSerialize(Device dev, string path)
         {
