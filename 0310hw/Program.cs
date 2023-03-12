@@ -16,7 +16,7 @@ namespace _0310hw
         static void Main(string[] args)
         {
             string pathjson = "../../data.json";
-            string pathxml = "../../data.json";
+            string pathxml = "../../data.xml";
             Device dev = new Device("dev1","manufacturer1", 1);
             DeviceSerializer ds = new DeviceSerializer();
             ds.XMLSerialize(dev,pathxml);
